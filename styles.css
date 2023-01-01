@@ -2,7 +2,6 @@
 
 body {
   background-image: url(./assets/Colored\ Patterns.svg);
-  font-family: "poppins", sans-serif;
 }
 .form {
   font-family: Helvetica, sans-serif;
@@ -17,6 +16,7 @@ body {
   background: #03773f;
   padding: 20px 0;
   font-weight: 300;
+  font-family: "poppins", sans-serif;
   text-align: center;
   color: #fff;
   margin: -16px -16px 16px -16px;
@@ -32,6 +32,7 @@ body {
   border: 1px solid #ccc;
   padding: 4%;
   font-size: 17px;
+  font-family: "poppins", sans-serif;
   color: rgb(9, 61, 125);
 }
 .form input[type="text"]:focus,
@@ -63,7 +64,9 @@ body {
   background: #0853b6;
   border: none;
   border-radius: 3px;
-  font-size: 17px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "poppins", sans-serif;
   border-top-style: none;
   border-right-style: none;
   border-left-style: none;
@@ -71,5 +74,5 @@ body {
   cursor: pointer;
 }
 .form button:hover {
-  background: rgba(88, 104, 191, 0.5);
+  background-color: #6c00ff;
 }
